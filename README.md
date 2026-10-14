@@ -1,7 +1,7 @@
 # Variados do Dia a Dia — vitrine de afiliada TikTok Shop
 
 Vitrine estática da `@variadosdiaadiadobr` com 14 produtos e fotos oficiais de capa.
-Sem build, sem dependências: abra `index.html` ou publique a pasta `site/` na Vercel.
+Sem build, sem dependências: abra `index.html` ou publique a raiz deste repositório na Vercel.
 
 ## Arquivos
 - `index.html` — catálogo completo (14 produtos, botão **Compre Agora** por produto)
@@ -30,4 +30,4 @@ git commit -m "Complete product catalog and polish affiliate storefront"
 git remote add origin https://github.com/segundacontajoao6031-rgb/site1.git
 git push -u origin main
 ```
-Vercel: importe o repositório (diretório-raiz `site/`) ou `vercel --prod` dentro de `site/`.
+Vercel: importe o repositório com o diretório-raiz padrão (raiz do repositório, onde estão `index.html` e `vercel.json`) ou execute `vercel --prod` a partir desta pasta.
